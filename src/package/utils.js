@@ -59,7 +59,6 @@ export const isRangeSameDay = ({ startDate, endDate }) => {
   return false;
 };
 
-const Falsy = [false, null, undefined, 0, ''];
 
 export const parseOptionalDate = (date, defaultValue) => {
   if (date) {
